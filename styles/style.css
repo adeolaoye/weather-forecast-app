@@ -1,32 +1,39 @@
 header {
-    background-image: linear-gradient(to right, skyblue, blue);
+  background-image: linear-gradient(to right, skyblue, blue);
 }
 
-aside {
-    border: 1px solid;
-}
+/* aside {
+  border: 1px solid;
+} */
 
 .input-group {
-    display: flex;
-    flex-direction: column;
-    width: inherit;
+  display: flex;
+  flex-direction: column;
+  width: inherit;
 }
 
 .form-group {
-    width: 100%;
+  width: 100%;
 }
 
 #search-button {
-    width: 100%;
-    margin: 16px 0;
+  width: 100%;
+  margin: 16px 0;
 }
 
 /* history divs */
 
 .history-tab {
-        background-color: grey;
+  background-color: grey;
+  margin: 8px 0;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: white;
 }
 
 .history-tab:hover {
-    background-color: rgb(66, 65, 65);
+  background-color: rgb(66, 65, 65);
 }
