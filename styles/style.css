@@ -1,0 +1,32 @@
+header {
+    background-image: linear-gradient(to right, skyblue, blue);
+}
+
+aside {
+    border: 1px solid;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+}
+
+.form-group {
+    width: 100%;
+}
+
+#search-button {
+    width: 100%;
+    margin: 16px 0;
+}
+
+/* history divs */
+
+.history-tab {
+        background-color: grey;
+}
+
+.history-tab:hover {
+    background-color: rgb(66, 65, 65);
+}
