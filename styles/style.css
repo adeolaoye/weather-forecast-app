@@ -12,6 +12,11 @@ header {
   width: inherit;
 }
 
+.weather-hr {
+    margin: 16px auto;
+    align-self:auto
+}
+
 .form-group {
   width: 100%;
 }
